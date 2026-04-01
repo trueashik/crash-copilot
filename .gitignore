@@ -1,0 +1,9 @@
+.env
+crash_report.html
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.agent/
+.agents/
