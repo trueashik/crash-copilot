@@ -1,9 +1,10 @@
-# bad.py — Intentional crash for testing Crash-Copilot
-
 def process_data(user_data):
     print("Processing user...")
-    return user_data["age"]  # BUG: "age" key does not exist
+    return user_data["age"]  # Crash! Key does not exist
 
-# Intentional crash
-user = {"name": "Ashik", "role": "Engineer"}
-process_data(user)
+def main():
+    user = {"name": "Ashik", "role": "Engineer"}
+    process_data(user)
+
+if __name__ == "__main__":
+    main()

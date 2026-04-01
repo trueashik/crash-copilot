@@ -20,7 +20,7 @@
 ### 1. Clone into your project root
 
 ```bash
-git clone https://github.com/your-username/crash-copilot
+git clone https://github.com/trueashik/crash-copilot.git
 ```
 
 > This creates a `crash-copilot/` folder inside your project.
@@ -94,7 +94,7 @@ This deliberately crashes and demonstrates the full Crash-Copilot flow.
 | Variable | Default | Description |
 |---|---|---|
 | `GLM_API_KEY` | *(required)* | Your Z.AI API key |
-| `GLM_MODEL` | `glm-5` | Model to use |
+| `GLM_MODEL` | `GLM-5.1` | Model to use |
 
 The `.env` is automatically discovered from the current directory up to 6 parent levels — no matter where you run `ccp` from.
 
