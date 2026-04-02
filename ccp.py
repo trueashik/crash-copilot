@@ -747,7 +747,7 @@ USAGE = f"""{C.BOLD}Crash-Copilot{C.END} — AI-powered crash interceptor
 
 {C.Y}Environment (.env):{C.END}
   GLM_API_KEY   Your Z.AI API key  →  https://z.ai/manage-apikey/apikey-list
-  GLM_MODEL     Model override (default: glm-4.7)
+  GLM_MODEL     Model override (default: glm-5.1)
 """
 
 
