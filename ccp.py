@@ -52,7 +52,7 @@ load_env()
 
 API_KEY   = os.environ.get("GLM_API_KEY", "").strip()
 API_URL   = "https://api.z.ai/api/paas/v4/chat/completions"
-MODEL     = os.environ.get("GLM_MODEL", "glm-4.7")
+MODEL     = os.environ.get("GLM_MODEL", "glm-5.1")
 
 SYSTEM_PROMPT = (
     "You are Crash-Copilot, an elite debugging AI agent.\n"
