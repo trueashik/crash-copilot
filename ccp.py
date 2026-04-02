@@ -725,10 +725,6 @@ def run_and_catch(command: list):
     print(f"{C.B}🧠 Diagnosing with {MODEL}…{C.END}\n")
     solution = ask_glm(error_log, code_ctx)
 
-    print(f"{C.Y}{'─'*55}{C.END}")
-    print(solution)
-    print(f"{C.Y}{'─'*55}{C.END}\n")
-
     save_report(solution, error_log, command)
 
 
